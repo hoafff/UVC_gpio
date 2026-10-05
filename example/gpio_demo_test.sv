@@ -1,3 +1,7 @@
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+import gpio_pkg::*;
+
 class gpio_demo_scoreboard extends uvm_component;
 
   `uvm_component_utils(gpio_demo_scoreboard)
