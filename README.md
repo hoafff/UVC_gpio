@@ -85,7 +85,7 @@ From the repository root:
 vsim -c -do sim/run_questa.do
 ```
 
-The demo test runs zero/one, toggle, walking-one, and random GPIO sequences against a small registered loopback DUT.
+The demo test runs zero/one, toggle, walking-one, and random GPIO sequences against a small combinational loopback DUT.
 
 ## Design goals
 
